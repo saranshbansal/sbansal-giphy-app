@@ -1,4 +1,4 @@
-# GIFt’ed
+# The App
 
 Helping engineers search for the best GIFs around internetown by building GIFted. A fast, easy
 to use GIF app that runs on all modern browsers built using modern web technologies.
