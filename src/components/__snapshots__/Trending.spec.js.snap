@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Trending Gifs should render correctly. 1`] = `
+<div
+  className="trending"
+/>
+`;

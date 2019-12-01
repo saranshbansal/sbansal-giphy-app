@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs should render correctly. 1`] = `
+<div
+  className="tabs"
+>
+  <ol
+    className="tab-list"
+  >
+    <Tab
+      activeTab="label 1"
+      key="label 1"
+      label="label 1"
+      onClick={[Function]}
+    />
+    <Tab
+      activeTab="label 1"
+      key="label 2"
+      label="label 2"
+      onClick={[Function]}
+    />
+  </ol>
+  <div
+    className="tab-content"
+  >
+    label: label1
+  </div>
+</div>
+`;

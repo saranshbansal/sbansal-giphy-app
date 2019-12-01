@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchContainer should render correctly. 1`] = `
+<div
+  className="search"
+>
+  <Search
+    onSearch={[Function]}
+  />
+</div>
+`;

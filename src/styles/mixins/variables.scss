@@ -1,0 +1,10 @@
+$color-primary: #ffdb3c;
+$color-secondary: #4169e1;
+$color-light: lighten($color-primary, 25%);
+$color-dark: darken($color-primary, 25%);
+$color-secondary-light: darken($color-secondary, 25%);
+$color-secondary-dark: darken($color-secondary, 25%);
+$color-background: darken(#fff, 5%);
+$black: #000;
+
+$font-family: "Roboto", serif;

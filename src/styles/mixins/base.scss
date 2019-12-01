@@ -1,0 +1,72 @@
+@import "./variables.scss";
+
+@mixin heading-font {
+  font-family: $font-family;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+body {
+  background-color: $color-background;
+  color: $black;
+  font-family: $font-family;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  header {
+    @include heading-font;
+    width: 100%;
+    background: $color-primary;
+    padding: 0 20px;
+
+    img {
+      vertical-align: middle;
+    }
+  }
+}
+
+input[type="text"] {
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  padding: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: $color-secondary;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+
+  &:hover {
+    background-color: $color-secondary-dark;
+  }
+}
+
+img {
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+
+  & > div {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+}

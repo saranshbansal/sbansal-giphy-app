@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Generate Random Gif should render correctly. 1`] = `
+<div
+  className="random"
+>
+  <Loader />
+  <button
+    className="btn"
+    onClick={[Function]}
+  >
+    RANDOMISE
+  </button>
+</div>
+`;
